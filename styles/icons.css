@@ -1,12 +1,46 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
 	background-color: #61E786;
 }
+
+/* .parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100vh;
+  } */
+  
+
+/*   
+.div1 { grid-area: 5 / 1 / 6 / 5; }
+.div2 { grid-area: 1 / 1 / 2 / 5; }
+.div3 { grid-area: 2 / 1 / 5 / 5; } */
+
+.parent {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 25vw 25vw 25vw 25vw;
+  grid-template-rows: 22vh 22vh 22vh 22vh 12vh;
+}
+
+.div3 {
+  background-color: aliceblue;
+  grid-column: 1 / span 4;
+  grid-row: 5 / span 1;
+}
+  
 
 body .material-symbols-outlined {
   font-family: 'Material Symbols Outlined';
   font-weight: normal;
   font-style: normal;
-  font-size: 32px;  /* Preferred icon size */
+  font-size: 24px;  /* Preferred icon size */
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -28,17 +62,24 @@ body .material-symbols-outlined {
 }
 
 .icon-container {
-    display: flex;
+  background-color: aliceblue;
+  display: flex ;
+  justify-content: space-evenly;
+  margin: 0px;
+  padding: 20px;
+  gap: 30px;
+
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 20px;
-    padding: 20px;
+    padding: 0px;
 		position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
 		background-color: #EDFFEC;
-    color: black;
+    color: black; */
 }
 
 a {
