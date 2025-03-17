@@ -1,6 +1,8 @@
 /*@media only screen and (max-width : 700px){*/
 	body {
-		font-size: 17pt;
+		font-size: 12px;
+		margin: 0;
+		padding: 0;
 	}
 	
 .luckiest-guy-regular {
@@ -34,17 +36,14 @@
 	
 	#sort {
 		width: fit-content; /* Adjust width to content */
-    margin: 0 auto; /* Centers horizontally */
+    	margin: 0 auto; /* Centers horizontally */
 		padding: 30px 10px;
-		font-size: ;
+		font-size: 20px;
 	}
 	
 	h1{
 		text-align: center;
-		}
-
-	
-	
+	}
 	
 		
 	.list {
@@ -52,13 +51,13 @@
 		justify-content: ;
 		width: ;
 		background-color: ;
-		padding: 20px 50px;
-		margin: 20px;
+		padding: 0px 0px;
+		margin: 0px;
 		font-size: ;
 	}
 
 	.catgories, th {
-		font-size: 17pt;
+		font-size: 24px;
 }
 	
 	table {
@@ -70,6 +69,7 @@
 		padding: 10px;
 		margin: 10px;
 		background-color: ;
+		font-size: 18px;
 }
 
 	td {
